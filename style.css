@@ -1,8 +1,10 @@
 .topnav {
-    background-color: #333;
+    background-color: #4dabf7;
     overflow: hidden;
     margin: 0;
     padding: 0;
+    font-family: 'Open Sans';
+    border-radius: 10px;
   }
   
   .topnav a {
@@ -15,11 +17,55 @@
   }
   
   .topnav a:hover {
-    background-color: #ddd;
+    background-color: #e7f5ff;
     color: black;
   }
-  
-  .topnav a.active {
-    background-color: #04AA6D;
+
+  /* ------------------------------------------------------------------------ */
+
+.title {
+    width: 46%;
+    margin-left: 30px;
+}
+
+.head {
+    font-family: Nunito Sans;
+    font-weight: bold;
+    font-size: 75px;
+    text-shadow: 20px 20px 30px #868e96;
+  }
+
+  .subtitle {
+    background-color: #4dabf7;
+    width: 46%;
+    position: fixed;
+    top: 350px;
+    left: 30px;
+    padding: 10px;
+    border-radius: 5px;
+    font-family: 'Nunito Sans';
     color: white;
   }
+
+  /* ------------------------------------------------------------------------ */
+
+  .image {
+    background-color: #4dabf7;
+    height: 425px;
+    width: 425px;
+    position: fixed;
+    top: 100px;
+    right: 125px;
+    padding-right: 0;
+    border-radius: 20px;
+    filter: drop-shadow(20px 20px 30px #868e96);
+  }
+
+    /* ------------------------------------------------------------------------ */
+
+html {
+    background-color: #f8f9fa;
+}
+
+  /* ------------------------------------------------------------------------ */
+  
